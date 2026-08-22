@@ -1,0 +1,38 @@
+{
+  "name": "nfo-file-support",
+  "displayName": "NFO File Support",
+  "description": "A simple extension for code to support nfo file.",
+  "version": "1.0.0",
+  "publisher": "Sn0wflake",
+  "engines": {
+    "vscode": "^1.134.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/nfo-support.git"
+  },
+  "license": "MIT",
+  "icon": "imgs/icon.png",
+  "contributes": {
+    "languages": [{
+      "id": "nfo",
+      "aliases": ["NFO File", "nfo"],
+      "extensions": [".nfo"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "nfo",
+      "scopeName": "source.nfo",
+      "path": "./syntaxes/nfo.tmLanguage.json"
+    }],
+    "configurationDefaults": {
+      "[nfo]": {
+        "editor.fontFamily": "'Perfect DOS VGA 437 Win', 'Lucida Console', monaspace",
+        "files.encoding": "cp437"
+      }
+    }
+  }
+}
