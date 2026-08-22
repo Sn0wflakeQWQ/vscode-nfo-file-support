@@ -4,12 +4,12 @@ A Visual Studio Code extension that provides dedicated support for `.nfo` files,
 
 ## Features
 
-- 🎨 **Auto-Detection**: Automatically recognizes `.nfo` files and assigns the "NFO" language mode.
-- 💾 **Correct Encoding**: Configures default file encoding to `cp437` (DOS standard) to ensure special characters display correctly.
+- **Auto-Detection**: Automatically recognizes `.nfo` files and assigns the "NFO" language mode.
+- **Correct Encoding**: Configures default file encoding to `cp437` (DOS standard) to ensure special characters display correctly.
 
 ## Installation
 
-1. **Download** the latest `.vsix` file from the [Releases](https://github.com/yourusername/nfo-support/releases) page.
+1. **Download** the latest `.vsix` file from the [Releases](https://github.com/Sn0wflakeQWQ/vscode-nfo-file-support/releases) page.
 2. Open Visual Studio Code.
 3. Go to the **Extensions** view (`Ctrl+Shift+X` or `Cmd+Shift+X`).
 4. Click the **...** (More Actions) button in the top-right corner of the Extensions panel.
