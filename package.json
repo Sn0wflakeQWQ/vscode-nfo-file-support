@@ -2,10 +2,10 @@
   "name": "nfo-file-support",
   "displayName": "NFO File Support",
   "description": "A simple extension for code to support nfo file.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Sn0wflake",
   "engines": {
-    "vscode": "^1.134.0"
+    "vscode": "^1.105.0"
   },
   "categories": [
     "Programming Languages"
@@ -31,7 +31,9 @@
     "configurationDefaults": {
       "[nfo]": {
         "editor.fontFamily": "'Perfect DOS VGA 437 Win', 'Lucida Console', monaspace",
-        "files.encoding": "cp437"
+        "files.encoding": "cp437",
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false
       }
     }
   }

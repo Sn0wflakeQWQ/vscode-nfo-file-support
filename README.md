@@ -5,7 +5,7 @@ A Visual Studio Code extension that provides dedicated support for `.nfo` files,
 ## Features
 
 - **Auto-Detection**: Automatically recognizes `.nfo` files and assigns the "NFO" language mode.
-- **Correct Encoding**: Configures default file encoding to `cp437` (DOS standard) to ensure special characters display correctly.
+- ~~**Correct Encoding**: Configures default file encoding to `cp437` (DOS standard) to ensure special characters display correctly.~~ It doesn't work. **Please set file encoding to `cp437` to open nfo file.**
 
 ## Installation
 
