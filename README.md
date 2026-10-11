@@ -14,7 +14,7 @@ A Visual Studio Code extension that provides dedicated support for `.nfo` files,
 3. Go to the **Extensions** view (`Ctrl+Shift+X` or `Cmd+Shift+X`).
 4. Click the **...** (More Actions) button in the top-right corner of the Extensions panel.
 5. Select **Install from VSIX...**.
-6. Browse to and select the downloaded `nfo-support-*.vsix` file.
+6. Browse to and select the downloaded `nfo-file-support-*.vsix` file.
 7. Reload VS Code if prompted.
 
 ## Configuration
@@ -30,7 +30,7 @@ This extension automatically applies the following default settings for `.nfo` f
 }
 ```
 
-## Recommended Font: Perfect DOS VGA 437
+## Recommended Font: `Perfect DOS VGA 437`
 
 To get the authentic retro look for your .nfo files, we strongly recommend installing the Perfect DOS VGA 437 font. This font replicates the classic IBM PC VGA text mode characters.
 
